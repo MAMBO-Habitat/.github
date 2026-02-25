@@ -6,9 +6,9 @@ The toolbox contains open-source software and notes that enable you to map indiv
 
 * The software package [attn-unet-shrub-id](https://github.com/MAMBO-Habitat/attn-unet-shrub-id) maps individual shrub crowns using 2-dimensional drone image mosaics as input. It contains a deep learning model (U-NET) that was trained using labelled images collected from drone imagery of a rewilding site in the UK, managed by the Wildlife Trust (Strawberry Hill farm, Bedfordshire).   
 * Related to the U-NET model is the software called [shrub-prepro](https://github.com/MAMBO-Habitat/shrub-prepro) is a Python package and CLI for pre-processing geospatial data to support the generation of labelled images: 
-* Creating binary masks from shapefiles. 
-* Generating rotated versions of processed images (to increase number of labelled images). 
-* Combining RGB imagery with DSM data into processed samples. 
+   * Creating binary masks from shapefiles. 
+   * Generating rotated versions of processed images (to increase number of labelled images). 
+   * Combining RGB imagery with DSM data into processed samples. 
 * [workshops](https://github.com/MAMBO-Habitat/workshops) contains Jupiter notebooks and slides which guide you through the steps to
     * prepare training data using shrub-prepro, 
     * train the U-NET model using attn-unet-shrub-id 
