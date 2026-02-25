@@ -9,10 +9,11 @@ The toolbox contains open-source software and notes that enable you to map indiv
 * Creating binary masks from shapefiles. 
 * Generating rotated versions of processed images (to increase number of labelled images). 
 * Combining RGB imagery with DSM data into processed samples. 
-* [workshops](https://github.com/MAMBO-Habitat/workshops) contains Jupiter notebooks which guide you through the steps to
+* [workshops](https://github.com/MAMBO-Habitat/workshops) contains Jupiter notebooks and slides which guide you through the steps to
     * prepare training data using shrub-prepro, 
     * train the U-NET model using attn-unet-shrub-id 
-    * run the U-NET model using attn-unet-shrub-id to produce a shrub map classification.   
+    * run the U-NET model using attn-unet-shrub-id to produce a shrub map classification.
+* [metadata]() contains a list of downloadable files (e.g., drone image mosaics, lidar las files, U-Net labelled images and more)
 
 The biomass model called [BRAMBLE](https://github.com/MAMBO-Habitat/BRAMBLE) is designed to be trained with incomplete data. The test case uses destructive samples of Hawthorn shrubs collected in a rewilding site in the UK, managed by the Wildlife Trust (Strawberry Hill farm, Bedfordshire).   
 
