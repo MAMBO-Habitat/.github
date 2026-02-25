@@ -1,6 +1,6 @@
 # A toolbox to map shrub cover and biomass from drone data
 
-_Develop consistent and standardised habitat condition metrics using state of the art drone imagery or airborne LiDAR and integrating the data into a deep learning framework. Funded by MAMBO (Modern Approaches to the Monitoring of Biodiversity), an EU Horizon project_ 
+_This toolbox was developped to enable the derivation of the common habitat condition metric'shrub cover' using drone imagery or airborne LiDAR data. Funded by MAMBO (Modern Approaches to the Monitoring of Biodiversity), an EU Horizon project_ 
 
 The toolbox contains open-source software and notes that enable you to map individual shrub crowns from drone imagery using a deep learning model. It also provides you with an allometric model that estimates individual shrub biomass from shrub crown diameter and height. Both deep learning and allometry model are at development stage. 
 
