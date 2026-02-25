@@ -1,8 +1,8 @@
-# A toolbox to map shrub cover and biomass from drone data
+# A toolbox to map cover and biomass of individual shrub species from drone data 
 
 _This toolbox was developped to enable the derivation of the common habitat condition metric'shrub cover' using drone imagery or airborne LiDAR data. Funded by MAMBO (Modern Approaches to the Monitoring of Biodiversity), an EU Horizon project_ 
 
-The toolbox contains open-source software and notes that enable you to map individual shrub crowns from drone imagery using a deep learning model. It also provides you with an allometric model that estimates individual shrub biomass from shrub crown diameter and height. Both deep learning and allometry model are at development stage. 
+The toolbox contains open-source software and notes that enable you to map individual shrub crowns (of a particular species) from drone imagery using a deep learning model. It also provides you with an allometric model that estimates individual shrub biomass from shrub crown diameter and height. Both deep learning and allometry model are at development stage. 
 
 * The software package [attn-unet-shrub-id](https://github.com/MAMBO-Habitat/attn-unet-shrub-id) maps individual shrub crowns using 2-dimensional drone image mosaics as input. It contains a deep learning model (U-NET) that was trained using labelled images collected from drone imagery of a rewilding site in the UK, managed by the Wildlife Trust (Strawberry Hill farm, Bedfordshire).   
 * Related to the U-NET model is the software called [shrub-prepro](https://github.com/MAMBO-Habitat/shrub-prepro) is a Python package and CLI for pre-processing geospatial data to support the generation of labelled images: 
