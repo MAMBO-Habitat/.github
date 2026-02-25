@@ -14,7 +14,7 @@ The toolbox contains open-source software and notes that enable you to map indiv
     * train the U-NET model using attn-unet-shrub-id 
     * run the U-NET model using attn-unet-shrub-id to produce a shrub map classification.   
 
-The biomass model called BRAMBLE is designed to be trained with incomplete data. The test case uses destructive samples of Hawthorn shrubs collected in a rewilding site in the UK, managed by the Wildlife Trust (Strawberry Hill farm, Bedfordshire).   
+The biomass model called [BRAMBLE](https://github.com/MAMBO-Habitat/BRAMBLE) is designed to be trained with incomplete data. The test case uses destructive samples of Hawthorn shrubs collected in a rewilding site in the UK, managed by the Wildlife Trust (Strawberry Hill farm, Bedfordshire).   
 
 ## Main novelty 
 
