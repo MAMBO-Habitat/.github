@@ -17,16 +17,6 @@ The toolbox contains open-source software and notes that enable you to map indiv
 
 The biomass model called [BRAMBLE](https://github.com/MAMBO-Habitat/BRAMBLE) is designed to be trained with incomplete data. The test case uses destructive samples of Hawthorn shrubs collected in a rewilding site in the UK, managed by the Wildlife Trust (Strawberry Hill farm, Bedfordshire).   
 
-## Main novelty 
-
-The main novelty lies in a U-NET deep learning model trained to identify (Hawthorn) shrubs and a Maximum Entropy allometric model using Bayesian inference developed to be trained with incomplete data.  
-
-## Scale 
-
-* Spatial: Local, site based monitoring
-* Temporal: Single date or Repeat visits 
-* Thematic: Habitat condition metric (shrub cover & biomass) relevant to biodiversity monitoring and ecosystem assessment 
-
-The lead organisation for this objective is [UK Centre for Ecology and Hydrology](https://github.com/NERC-CEH/)
+The lead organisation for this work is [UK Centre for Ecology and Hydrology](https://github.com/NERC-CEH/)
 
 MAMBO receives funding from the European Union's Horizon Europe research and innovation programme under grant agreement No.101060639.
